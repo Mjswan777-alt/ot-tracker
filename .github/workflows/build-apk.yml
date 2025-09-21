@@ -24,9 +24,13 @@ jobs:
         with:
           cmdline-tools-version: latest
           packages: |
-            platform-tools
-            platforms;android-34
-            build-tools;34.0.0
+                   tools
+                   platform-tools
+                   platforms;android-34
+                   build-tools;34.0.0
+
+
+                  
 
       - name: Make Gradle wrapper executable
         run: chmod +x ./gradlew
