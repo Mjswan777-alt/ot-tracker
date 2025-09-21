@@ -1,0 +1,3 @@
+// Settings file for the OTTracker project
+rootProject.name = 'OTTracker'
+include ':app'
